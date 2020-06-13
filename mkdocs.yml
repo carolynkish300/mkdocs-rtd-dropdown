@@ -19,9 +19,9 @@ repo_url: https://github.com/carolynkish300/mkdocs-rtd-dropdown
 nav:
     - Trang chủ: index.md
     - All blogs:
-        - Một số tác dụng của yến sào với phụ nữ: user-guide/writing-your-docs.md
-        - Tìm hiểu công dụng của yến sào dành cho trẻ em: user-guide/styling-your-docs.md
-        - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: user-guide/configuration.md
+        - Một số tác dụng của yến sào với phụ nữ: user-guide/mot-so-tac-dung-cua-yen-sao-voi-phu-nu.md
+        - Tìm hiểu công dụng của yến sào dành cho trẻ em: user-guide/tim-hieu-cong-dung-cua-yen-sao-danh-cho-tre-em.md
+        - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: user-guide/tim-hieu-cac-cong-dung-tuyet-voi-cua-yen-sao-hien-nay.md
         - Deploying Your Docs: user-guide/deploying-your-docs.md
         - Custom Themes: user-guide/custom-themes.md
         - Plugins: user-guide/plugins.md
