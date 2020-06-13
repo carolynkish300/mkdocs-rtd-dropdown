@@ -1,4 +1,4 @@
-![](https://yensao.jweb.vn/uploads/yensao/images/lien-he-yen-sao-dai-lam-moc.jpg)
+![Yến sào Đại Lâm Mộc](http://toyensaovietnam.com/wp-content/uploads/2015/05/lien-he-yen-sao-dai-lam-moc.jpg)
 
 <span style="text-align: -webkit-auto; font-size: 15px; background-color: transparent; line-height: 1.5; color: #800000;">**Yến Sào ĐẠI LÂM MỘC**</span>
 
