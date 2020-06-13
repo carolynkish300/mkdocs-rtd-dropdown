@@ -10,7 +10,7 @@
 *   <span style="color: #000000;">Hotline: 0906340789</span>
 *   <span style="color: #000000;">Email: yensao@dlm.vn</span>
 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 
 **[<span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Bảng Giá Các Sản Phẩm Tổ Yến Sào Chất Lượng Cao:</span></span>](http://toyensaovietnam.com/gia-to-yen-yen-sao-cac-loai/ "Bảng Giá Các Sản Phẩm Tổ Yến Sào Chất Lượng Cao")**  
 
@@ -22,3 +22,20 @@
 
 ![Tổ Yến Sào Thô Nguyên Tổ](http://toyensaovietnam.com/wp-content/uploads/2015/05/yen-tho-con-long.jpg)  
 [<span style="vertical-align: inherit;">Tổ Yến Sào Thô Nguyên Tổ</span>](http://toyensaovietnam.com/to-yen-yen-sao/ "Tổ Yến Sào Thô Nguyên Tổ")
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+**Liên kết Website:**
+*   **[toyendailammoc.blogspot.com](https://toyendailammoc.blogspot.com/)**
+*   **[yensao.over-blog.com](http://yensao.over-blog.com/)**
+*   **[yensaodailammoc.weebly.com](https://yensaodailammoc.weebly.com/)**
+*   **[toyensao.tumblr.com]( https://toyensao.tumblr.com/)**
+*   **[toyensao.hatenablog.com](https://toyensao.hatenablog.com/)**
+*   **[yensaodailammoc.yolasite.com](https://yensaodailammoc.yolasite.com/ )**
+*   **[toyensaodailammoc.business.site](https://toyensaodailammoc.business.site/ )**
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+**Social media**
+[![Facebook]( https://i.ibb.co/2PfDsgP/facebook.png)](https://www.facebook.com/toyensaodailammoc) [ ![”Youtube"](https://i.ibb.co/VHmqwMS/youtube.png)](https://www.youtube.com/channel/UCwkfwUEwD97K_eNyZ-yzefQ) [ ![”Linkedin"](https://i.ibb.co/Rpn1m8D/linkedin.png)](https://www.linkedin.com/in/yensaodailammoc/) [ ![”Vimeo"](https://i.ibb.co/Fs7qJ12/vimeo.png)](https://vimeo.com/yensao) [ ![”Medium"](https://i.ibb.co/vZsBj3b/medium.png)](https://medium.com/@yensaodailammoc) [ ![”Pinterest"](https://i.ibb.co/whj4xKn/pinterest.png)](https://www.pinterest.com/txv1985/) [ ![”Twitter"](https://i.ibb.co/zxtX8nX/twitter.png)](https://twitter.com/YenSaoDaiLamMoc) [ ![”Instagram"](https://i.ibb.co/SsnNXtS/instagram.png)](https://www.instagram.com/yensaodailammoc/) [ ![”Quora"](https://i.ibb.co/2vtJqTy/quora.png)](https://www.quora.com/profile/truong-xuan-vu-1) [ ![”Behance"](https://i.ibb.co/K5CWBxH/behance.png)](https://www.behance.net/yensaodailammoc) [ ![”Tumblr"](https://i.ibb.co/25dyBn1/tumblr.png)](https://toyensao.tumblr.com/) [ ![”Dribble"](https://i.ibb.co/pQm8GYZ/dribble.png)](https://dribbble.com/yensaodailammoc) [ ![”Flickr"](https://i.ibb.co/8smyChP/flickr.png)](https://flickr.com/photos/yensaodailammoc/) [ ![”Deviantart"](https://i.ibb.co/4m9x8hF/devianart.png)](https://www.deviantart.com/jackycun)
+
