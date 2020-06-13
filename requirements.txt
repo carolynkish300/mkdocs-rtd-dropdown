@@ -1,2 +1,2 @@
-#git+http://github.com/cjsheets/mkdocs.git@dev#egg=mkdocs
+#git+https://github.com/carolynkish300/mkdocs-rtd-dropdown.git@dev#egg=mkdocs
 mkdocs
