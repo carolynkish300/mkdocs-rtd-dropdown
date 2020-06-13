@@ -1,360 +1,52 @@
-# MkDocs
-
-Project documentation with&nbsp;Markdown.
-
----
-
-## Overview
-
-MkDocs is a **fast**, **simple** and **downright gorgeous** static site
-generator that's geared towards building project documentation. Documentation
-source files are written in Markdown, and configured with a single YAML
-configuration file.
-
-### Host anywhere
-
-MkDocs builds completely static HTML sites that you can host on GitHub pages,
-Amazon S3, or [anywhere][deploy] else you choose.
-
-### Great themes available
-
-There's a stack of good looking themes available for MkDocs. Choose between
-the built in themes: [mkdocs] and [readthedocs], select one of the 3rd
-party themes in the [MkDocs wiki], or [build your own].
-
-### Preview your site as you work
-
-The built-in dev-server allows you to preview your documentation as you're
-writing it. It will even auto-reload and refresh your browser whenever you save
-your changes.
-
-### Easy to customize
-
-Get your project documentation looking just the way you want it by customizing
-the theme.
-
----
-
-## Installation
-
-### Install with a Package Manager
-
-If you have and use a package manager (such as [apt-get], [dnf], [homebrew],
-[yum], [chocolatey], etc.) to install packages on your system, then you may
-want to search for a "MkDocs" package and, if a recent version is available,
-install it with your package manager (check your system's documentation for
-details). That's it, you're done! Skip down to [Getting Started](#getting-started).
-
-If your package manager does not have a recent "MkDocs" package, you can still
-use your package manager to install "Python" and "pip". Then you can use pip to
-[install MkDocs](#installing-mkdocs).
-
-[apt-get]: https://help.ubuntu.com/community/AptGet/Howto
-[homebrew]: https://brew.sh/
-[dnf]: http://dnf.readthedocs.io/en/latest/index.html
-[yum]: http://yum.baseurl.org/
-[chocolatey]: https://chocolatey.org/
-
-### Manual Installation
-
-In order to manually install MkDocs you'll need [Python] installed on your
-system, as well as the Python package manager, [pip]. You can check if you have
-these already installed from the command line:
-
-```bash
-$ python --version
-Python 2.7.2
-$ pip --version
-pip 1.5.2
-```
-
-MkDocs supports Python versions 2.7, 3.4, 3.5, 3.6, 3.7 and pypy.
-
-#### Installing Python
-
-Install [Python] by downloading an installer appropriate for your system from
-[python.org] and running it.
-
-!!! Note
-
-    If you are installing Python on Windows, be sure to check the box to have
-    Python added to your PATH if the installer offers such an option (it's
-    normally off by default).
-
-    ![Add Python to PATH](img/win-py-install.png)
-
-[python.org]: https://www.python.org/downloads/
-
-#### Installing pip
-
-If you're using a recent version of Python, the Python package manager, [pip],
-is most likely installed by default. However, you may need to upgrade pip to the
-lasted version:
-
-```bash
-pip install --upgrade pip
-```
-
-If you need to install [pip] for the first time, download [get-pip.py].
-Then run the following command to install it:
-
-```bash
-python get-pip.py
-```
-
-#### Installing MkDocs
-
-Install the `mkdocs` package using pip:
-
-```bash
-pip install mkdocs
-```
-
-You should now have the `mkdocs` command installed on your system. Run `mkdocs
---version` to check that everything worked okay.
-
-```bash
-$ mkdocs --version
-mkdocs, version 0.15.3
-```
-
-!!! Note
-    If you would like manpages installed for MkDocs, the [click-man] tool can
-    generate and install them for you. Simply run the following two commands:
-
-        pip install click-man
-        click-man --target path/to/man/pages mkdocs
-
-    See the [click-man documentation] for an explaination of why manpages are
-    not automaticaly generated and installed by pip.
-
-[click-man]: https://github.com/click-contrib/click-man
-[click-man documentation]: https://github.com/click-contrib/click-man#automatic-man-page-installation-with-setuptools-and-pip
-
-!!! Note
-    If you are using Windows, some of the above commands may not work
-    out-of-the-box.
-
-    A quick solution may be to preface every Python command with `python -m`
-    like this:
-
-        python -m pip install mkdocs
-        python -m mkdocs
-
-    For a more permanent solution, you may need to edit your `PATH` environment
-    variable to include the `Scripts` directory of your Python installation.
-    Recent versions of Python include a script to do this for you. Navigate to
-    your Python installation directory (for example `C:\Python34\`), open the
-    `Tools`, then `Scripts` folder, and run the `win_add2path.py` file by double
-    clicking on it. Alternatively, you can [download][a2p] the script and run it
-    (`python win_add2path.py`).
-
-[a2p]: https://svn.python.org/projects/python/trunk/Tools/scripts/win_add2path.py
-
----
-
-## Getting Started
-
-Getting started is super easy.
-
-```bash
-mkdocs new my-project
-cd my-project
-```
-
-Take a moment to review the initial project that has been created for you.
-
-![The initial MkDocs layout](img/initial-layout.png)
-
-There's a single configuration file named `mkdocs.yml`, and a folder named
-`docs` that will contain your documentation source files. Right now the `docs`
-folder just contains a single documentation page, named `index.md`.
-
-MkDocs comes with a built-in dev-server that lets you preview your documentation
-as you work on it. Make sure you're in the same directory as the `mkdocs.yml`
-configuration file, and then start the server by running the `mkdocs serve`
-command:
-
-```bash
-$ mkdocs serve
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000
-[I 160402 15:50:43 handlers:58] Start watching changes
-[I 160402 15:50:43 handlers:60] Start detecting changes
-```
-
-Open up `http://127.0.0.1:8000/` in your browser, and you'll see the default
-home page being displayed:
-
-![The MkDocs live server](img/screenshot.png)
-
-The dev-server also supports auto-reloading, and will rebuild your documentation
-whenever anything in the configuration file, documentation directory, or theme
-directory changes.
-
-Open the `docs/index.md` document in your text editor of choice, change the
-initial heading to `MkLorum`, and save your changes. Your browser will
-auto-reload and you should see your updated documentation immediately.
-
-Now try editing the configuration file: `mkdocs.yml`. Change the
-[`site_name`][site_name] setting to `MkLorum` and save the file.
-
-```yaml
-site_name: MkLorum
-```
-
-Your browser should immediately reload, and you'll see your new site name take
-effect.
-
-![The site_name setting](img/site-name.png)
-
-## Adding pages
-
-Now add a second page to your documentation:
-
-```bash
-curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' > docs/about.md
-```
-
-As our documentation site will include some navigation headers, you may want to
-edit the configuration file and add some information about the order, title, and
-nesting of each page in the navigation header by adding a [`pages`][pages]
-setting:
-
-```yaml
-site_name: MkLorum
-pages:
-    - Home: index.md
-    - About: about.md
-```
-
-Save your changes and you'll now see a navigation bar with `Home` and `About`
-items on the left as well as `Search`, `Previous`, and `Next` items on the
-right.
-
-![Screenshot](img/multipage.png)
-
-Try the menu items and navigate back and forth between pages. Then click on
-`Search`. A search dialog will appear, allowing you to search for any text on
-any page. Notice that the search results include every occurrence of the search
-term on the site and links directly to the section of the page in which the
-search term appears. You get of all that with no effort or configuration on your
-part!
-
-![Screenshot](img/search.png)
-
-## Theming our documentation
-
-Now change the configuration file to alter how the documentation is displayed by
-changing the theme. Edit the `mkdocs.yml` file and add a [`theme`][theme] setting:
-
-```yaml
-site_name: MkLorum
-pages:
-    - Home: index.md
-    - About: about.md
-theme: readthedocs
-```
-
-Save your changes, and you'll see the ReadTheDocs theme being used.
-
-![Screenshot](img/readthedocs.png)
-
-## Changing the Favicon Icon
-
-By default, MkDocs uses the [MkDocs favicon] icon. To use a different icon, create
-an `img` subdirectory in your `docs_dir` and copy your custom `favicon.ico` file
-to that directory. MkDocs will automatically detect and use that file as your
-favicon icon.
-
-[MkDocs favicon]: /img/favicon.ico
-
-## Building the site
-
-That's looking good. You're ready to deploy the first pass of your `MkLorum`
-documentation. First build the documentation:
-
-```bash
-mkdocs build
-```
-
-This will create a new directory, named `site`. Take a look inside the
-directory:
-
-```bash
-$ ls site
-about  fonts  index.html  license  search.html
-css    img    js          mkdocs   sitemap.xml
-```
-
-Notice that your source documentation has been output as two HTML files named
-`index.html` and `about/index.html`. You also have various other media that's
-been copied into the `site` directory as part of the documentation theme. You
-even have a `sitemap.xml` file and `mkdocs/search_index.json`.
-
-If you're using source code control such as `git` you probably don't want to
-check your documentation builds into the repository. Add a line containing
-`site/` to your `.gitignore` file.
-
-```bash
-echo "site/" >> .gitignore
-```
-
-If you're using another source code control tool you'll want to check its
-documentation on how to ignore specific directories.
-
-After some time, files may be removed from the documentation but they will still
-reside in the `site` directory. To remove those stale files, just run `mkdocs`
-with the `--clean` switch.
-
-```bash
-mkdocs build --clean
-```
-
-## Other Commands and Options
-
-There are various other commands and options available. For a complete list of
-commands, use the `--help` flag:
-
-```bash
-mkdocs --help
-```
-
-To view a list of options available on a given command, use the `--help` flag
-with that command. For example, to get a list of all options available for the
-`build` command run the following:
-
-```bash
-mkdocs build --help
-```
-
-## Deploying
-
-The documentation site that you just built only uses static files so you'll be
-able to host it from pretty much anywhere. [GitHub project pages] and [Amazon
-S3] may be good hosting options, depending upon your needs. Upload the contents
-of the entire `site` directory to wherever you're hosting your website from and
-you're done. For specific instructions on a number of common hosts, see the
-[Deploying your Docs][deploy] page.
-
-## Getting help
-
-To get help with MkDocs, please use the [discussion group], [GitHub issues] or
-the MkDocs IRC channel `#mkdocs` on freenode.
-
-[deploy]: user-guide/deploying-your-docs/
-[mkdocs]: user-guide/styling-your-docs/#mkdocs
-[readthedocs]: user-guide/styling-your-docs/#readthedocs
-[MkDocs wiki]: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
-[build your own]: user-guide/custom-themes/
-[Amazon S3]: https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
-[get-pip.py]: https://bootstrap.pypa.io/get-pip.py
-[pages]: user-guide/configuration/#pages
-[discussion group]: https://groups.google.com/forum/#!forum/mkdocs
-[GitHub issues]: https://github.com/mkdocs/mkdocs/issues
-[GitHub project pages]: https://help.github.com/articles/creating-project-pages-manually/
-[pip]: http://pip.readthedocs.io/en/stable/installing/
-[Python]: https://www.python.org/
-[site_name]: user-guide/configuration/#site_name
-[theme]: user-guide/configuration/#theme
+![Yến sào Đại Lâm Mộc](http://toyensaovietnam.com/wp-content/uploads/2020/05/Công-dụng-và-cách-sử-dụng-yến-sào-Đại-Lâm-Mộc-1.jpg)
+
+## Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay
+*   Công dụng của yến sào tuyệt vời cho sức khỏe như thế nào chắc hẵn không cần nói ra thì mọi người đều biết, vì yến sào được mệnh danh là "thực phẩm vàng" bởi trong thành phần của nó chứa hàm lượng Protein cùng với 18 loại axit amin có giá trị dinh dưỡng cao trong việc phát triển, phòng chống bệnh tật và phục hồi sức khỏe…Yến sào phù hợp cho mọi đối tượng như trẻ nhỏ, người già, người bệnh, phụ nữ mang thai…
+*   Công dụng của yến sào là rất tốt cho đàn ông và sức khỏe tình dục. Yến sào giúp tăng cường lưu thông tuần hoàn máu, không chỉ giúp cải thiện khả năng mà còn làm tăng sự hưng phấn, ham muốn của cả nam và nữ. Một trong những công dụng của yến sào là giúp tăng cường sức khỏe, sự dẻo dai cho đàn ông, tăng cường lưu thông tuần hoàn máu, không chỉ giúp cải thiện khả năng mà còn làm tăng sự hưng phấn, ham muốn của cả nam và nữ.
+*   [yến sào](http://toyensaovietnam.com/cong-dung-tac-dung-to-yen-yen-sao/)
+
+## Người già lớn tuổi dùng yến sào có tác dụng gì không
+*   Tổ yến là thực phẩm quý giá, được ví như bài thuốc báu từ thiên nhiên vì chúng chứa nhiều dinh dưỡng, vi khoáng chất cần thiết để bồi dưỡng cơ thể. Đặc biệt với người già, cơ thể già yếu và mất đi nhanh chóng khả năng miễn dịch và các bộ phận cơ thể yếu dần đi dẫn tới phát sinh rất nhiều bệnh tật. Để khắc phục điều này, người cao tuổi nên dùng tổ yến. Vậy công dụng của tổ yến với sức khỏe người già tuyệt vời thế nào?
+*   Yến sào có công dụng chính là bồi bổ sức khoẻ và tăng cường sinh lực. Trong yến sào có chứa 18 loại acid amin và rất giàu Proline (5.27 %), Axit aspartic (4.69 %), nhiều nguyên tố quý như Ca, Fe, Mn, Br, Cu, Zn, Cr,…nhờ vậy mà ăn yến sào sẽ giúp cho hệ tiêu hoá tốt hơn, làm tăng lượng hồng cầu trong máu, kích thích các tế bào sinh trưởng và phục hồi các tế bào bị tổn thương. Chính vì vậy mà yến sào rất thích hợp cho người cao tuổi, những người dùng để bồi bổ cơ thể và phục hồi sức khoẻ.
+*   [tác dụng của tổ yến đối với người già](http://toyensaovietnam.com/cong-dung-cua-to-yen-sao-danh-cho-nguoi-gia-lon-tuoi/)
+
+## Sơ lược các dùng tổ yến đối với người già lớn tuổi
+*   Dùng yến sào cho người già như thế nào là đúng cách, người già ăn yến như thế nào, số lượng, liều lượng bao nhiêu, thời gian ăn tốt nhất là câu hỏi của rất nhiều bạn đọc gửi đến cho chúng tôi. Như chúng ta đã yến sào là cực phẩm dinh dưỡng dành cho người cao tuổi, người bệnh, nhưng dùng không đúng sẽ gây hại, mời các bạn tham khảo tư vấn của chuyên gia đông y nhé.
+*   Tổ yến sào có chứa một lượng lớn protein vá các axit amin nó góp phần thúc đẩy quá trình phục hồi sức khỏe và tăng khả năng trao đổi chất. Yến sào còn giúp tăng cường khả năng miễn dịch, cải thiện chức năng tim và giảm huyết áp. Ngoài ra, sản phẩm yến sào còn giúp kích thích cảm giác thèm ăn, giúp cho người già khi ăn cảm thấy ngon miệng hơn, tiêu hóa tốt hơn. Cho người già sự minh mẫn chống lão hóa và tăng cường tuổi thọ giúp ngủ ngon…Tháng đầu tiên: Mỗi ngày khoảng 7-10 gram yến, ăn đều mỗi ngày. Tháng thứ 2: Ăn 10 gram yến, ăn đều 2 ngày 1 lần. Tháng thứ 3 trở đi: Ăn 10 gram yến, ăn đều mỗi 3 ngày 1 lần.
+*   [cách dùng tổ yến cho người già](http://toyensaovietnam.com/cach-dung-to-yen-sao-cho-nguoi-gia-lon-tuoi/)
+
+## Tóm tắt quy trình làm sạch lông tổ yến nhanh
+*   Với tổ yến còn nguyên tổ, lông vẫn còn dính nhiều, chúng ta phải mất nhiều thời gian để làm sạch. Tổ yến thô phù hợp những người có nhu cầu dùng sản phẩm tự nhiên nhất và có thời gian để làm sạch lông. Với yến nguyên tổ làm sạch, chỉ mới rút lông, đem sấy khô, khi mua về, quý khách chỉ cần ngâm và rửa sơ để làm sạch các lông tơ còn sót lại. Với yến đã làm sạch hoàn toàn, quý khách chỉ cần ngâm nở và chế biến thành các món từ yến ăn ưa thích.
+*   Yến sào mang đến nhiều lợi ích cho sức khỏe, cho nhiều độ tuổi khác nhau. Chính vì thế, mặc dù mức giá khá đắt đỏ nhưng lượng tiêu thụ yến sào vẫn luôn ổn định. Với những thông tin trong bài viết, hi vọng các bạn sẽ hiểu rõ hơn và chế biến chúng thành những món ăn thơm ngon mà vẫn giữ trọn dinh dưỡng.
+*   [tổ yến](http://toyensaovietnam.com/cach-lam-sach-long-to-yen-sao/)
+
+## Bảo quản yến sào cần lưu ý những gì
+*   Yến sào là một loại thực phẩm “vàng” vô cùng cần thiết cho sức khỏe con người và đang được sử dụng rộng rãi. Để có thể sử dụng hiệu quả yến sào, chúng ta cần phải có những kiến thức cần thiết trong việc sử dụng yến đúng cách, chế biến và bảo quản. Một số người không biết cách bảo quản tổ yến đã nhặt lông nên nên đã làm mất đi các thành phần dinh dưỡng nhất và rút ngắn thời hạn sử dụng của loại thực phẩm bổ dưỡng này. Tổ yến nếu bảo quản không đúng cách sẽ là một vấn đề lớn, đôi khi sẽ ảnh hưởng xấu đến sức khỏe của người dùng. Vậy, cách bảo quản tổ yến đã nhặt lông là gì? Mời các bạn cùng theo dõi.
+*   Để bảo quản yến sào thô nguyên tổ, bạn nên cất giữ tại nơi khô ráo. Không nên để chỗ quá kín, có hơi ẩm sẽ làm hỏng tổ yến. Cũng không nên đặt nơi có ánh sáng chiếu vào vì ánh nắng có thể phá vỡ cấu trúc và thành phần dinh dưỡng của tổ yến. Việc bảo quản yến sào thô được đánh giá là đơn giản nhất so với các loại tổ yến khác.
+*   [cách bảo quản tổ yến](http://toyensaovietnam.com/cach-bao-quan-to-yen-sao/)
+
+## Yến sào chưng với đường phèn làm như thế nào
+*   Sau khi chưng đủ thời gian cần thiết, yến sào đã chín, sợi yến nở đều, đặc. Sợi yến mềm nhưng vẫn giữ được độ dài, không bị nát hay tan ra nước. Đưa lên mũi ngửi có thoang thoảng mùi tanh giống lòng trắng trứng gà. Mùi tanh này chỉ có trong khoảng thời gian sau chế biến yến - khi món ăn còn nóng. Nếu món ăn đã nguội thì mùi này cũng giảm từ từ và mất đi. Hâm nóng lại món ăn, mùi tanh nhẹ này lại xuất hiện. Đây cũng là một trong những đặc điểm để phân biệt yến thật – yến giả.
+*   Bắc nồi lên trên bếp và nấu. Sau khi nước trong nồi sôi, điều chỉnh cho lửa nhỏ lại để nước không bị sôi mạnh và không tràn vào trong tô. Chưng yến sào chỉ khoảng 20 phút – 25 phút là được. Lưu ý không nên chưng quá lâu sẽ làm mất dinh dưỡng của yến bị hao hụt nhiều. Cuối cùng chúng ta cho đường phèn vào và tắt bếp, sau khi tắt bếp bạn cho một vài lát gừng vào trong tô giúp cho mùi vị yến sào chưng đường phèn được thơm ngon hấp dẫn hơn.
+*   [cách chưng tổ yến](http://toyensaovietnam.com/to-yen-chung-duong-phen/)
+
+## Một số chú ý về thời gian khi chưng tổ yến sào cho không mất chất
+*   Thời gian chưng yến sào bao lâu là hợp lý và đảm bảo? là câu hỏi nhiều người tiêu dùng đặt ra đặc biệt là những người muốn chế biến món yến sào để chăm sóc sức khỏe bản thân, gia đình. Yến sào có thể chế biến bằng nhiều phương pháp khác nhau trong đó có phương pháp thông dụng là chưng đường phèn. Yến chưng đường phèn cần đảm bảo được nguyên liệu, cách chế biến cũng như thời gian chưng.
+*   Tổ yến đảo thô: Cách chế biến tổ yến có thể là chưng cách thủy ( hoặc hấp trong nồi cơm): tùy theo tổ yến tuổi của sợi yến sào, thời gian ngâm trong nước và nhặt lông là khoảng 2h – 3h, thời gian chưng khoảng 30p – 40p. Dùng nồi chưng chuyên dụng: thời gian ngâm nở 2h – 3h, thời gian chưng 2h – 3h.
+*   [chưng tổ yến trong bao lâu](http://toyensaovietnam.com/thoi-gian-chung-to-yen-sao-cac-loai/)
+
+## Tổng quan cách dùng tổ yến lúc nào tốt nhất
+*   Yến chưng nên ăn vào lúc nào là tốt nhất. Thời điểm lý tưởng nhất để sử dụng yến sào trong ngày chính là buổi sáng. Các chuyên gia cho rằng lúc này, khi cơ thể đang đói nên các chất dinh dưỡng trong yến sào cũng có thể dễ dàng được hấp thu và phát huy tác dụng. Một chén yến chưng hoặc soup yến vào sáng sớm cũng là giải pháp giúp bạn nạp đủ năng lượng cho một ngày dài làm việc hiệu quả. Nếu bạn đang trong quá trình giảm cân thì một chén yến chưng hoặc soup yến đã đủ để thay thế bữa ăn sáng. Nếu bạn không ăn kiêng thì sau khi ăn yến có thể ăn thêm trái cây hoặc một chút tinh bột.
+*   Mỗi người sẽ có một cơ địa khác khác nhau. Chính vì thế để trả lời câu hỏi ăn tổ yến bao nhiêu là đủ. Cách ăn tổ yến như thế nào thật không đơn giản. Bởi vì cơ địa mỗi người khác nhau dẫn tới khả năng hấp thu dưỡng chất của mỗi người cũng khác nhau. Có người ăn rất tốt, ăn rất nhiều nhưng thể trạng vẫn không thể béo lên được. Vì vậy, để phát huy hết công dụng của tổ yến cần chú ý đến cơ địa, cách ăn, thời điểm ăn sao cho hợp lí nhất.
+*   [ăn yến sào](http://toyensaovietnam.com/nen-an-to-yen-yen-sao-vao-luc-nao-thi-tot-nhat/)
+
+## Hướng dẫn sử dụng yến sào để có hiệu quả tốt nhất
+*   Yến sào là một món ăn được xếp vào loại cực kì bổ dưỡng vì bên trong chứa hàm lượng protein cao, ngoài ra còn chứa 18 loại axit amin giúp tổng hợp các chất cần thiết cho cơ thể. Tuy nhiên, không phải ai cũng biết cách chế biến và sử dụng để yến sào đúng cách, cần lưu ý điều gì khi chế biến... Là một người tiêu dùng thông minh, chúng ta cần trang bị kiến thức sử dụng yến sào đúng cách mang lại hiệu quả tốt nhất, tránh làm mất đi nguồn dinh dưỡng quý giá trong món ăn này. Yến sào có công dụng tăng cường hệ miễn dịch cho cơ thể, tăng cường phát triển trí tuệ, làm sạch đường hô hấp, chống lão hoá, tốt cho tim và tuần hoàn máu, nâng cao hoạt động tình dục
+*   Việc dùng yến sào liều lượng cao và tần suất dày đặc, do tâm lý nóng lòng muốn yến phát huy tác dụng là một sai lầm. Khi cơ thể hấp thu không hết dưỡng chất có trong yến sẽ gây lãng phí. Ngoài ra, sử dụng yến quá liều lượng còn dễ gây lạnh bụng, tiêu chảy do yến có tính hàn.
+*   [cách sử dụng yến sào](http://toyensaovietnam.com/cach-dung-to-yen-sao-hieu-qua-tot-nhat/)
+
+**Liên hệ**
+
+*   **Yến sào Đại Lâm Mộc**
+*   Trụ sở: 641 Hoàng Văn Thụ P.4 Q.Tân Bình TpHCM
+*   Mobile: 0906.340.789 Mr Vũ
