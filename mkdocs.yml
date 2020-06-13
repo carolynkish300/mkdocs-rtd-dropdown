@@ -17,11 +17,11 @@ theme:
 repo_url: https://github.com/carolynkish300/mkdocs-rtd-dropdown
 
 nav:
-    - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: index.md
-    - Công dụng của yến sào với trẻ em và phụ nữ:
+    - Trang chủ: index.md
+    - All blogs:
         - Một số tác dụng của yến sào với phụ nữ: user-guide/writing-your-docs.md
         - Tìm hiểu công dụng của yến sào dành cho trẻ em: user-guide/styling-your-docs.md
-        - Configuration: user-guide/configuration.md
+        - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: user-guide/configuration.md
         - Deploying Your Docs: user-guide/deploying-your-docs.md
         - Custom Themes: user-guide/custom-themes.md
         - Plugins: user-guide/plugins.md
