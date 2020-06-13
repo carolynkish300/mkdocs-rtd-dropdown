@@ -25,7 +25,7 @@ nav:
         - Deploying Your Docs: user-guide/deploying-your-docs.md
         - Custom Themes: user-guide/custom-themes.md
         - Plugins: user-guide/plugins.md
-    - About:
+    - Liên hệ:
         - Release Notes: about/release-notes.md
         - Contributing: about/contributing.md
         - License: about/license.md
@@ -36,4 +36,4 @@ extra_css:
 plugins:
     - search
 
-google_analytics: ['UA-10006093-5', 'readthedocs.sheets.ch']
+google_analytics: ['UA-165101248-1', 'yensaodailammoc.readthedocs.io']
