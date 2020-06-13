@@ -14,13 +14,13 @@ theme:
     #name: null
     #custom_dir: 'rtd_dropdown/'
 
-repo_url: https://github.com/cjsheets/readthedocs-dropdown
+repo_url: https://github.com/carolynkish300/mkdocs-rtd-dropdown
 
 nav:
-    - MkDocs: index.md
-    - User Guide:
-        - Writing Your Docs: user-guide/writing-your-docs.md
-        - Styling Your Docs: user-guide/styling-your-docs.md
+    - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: index.md
+    - Công dụng của yến sào với trẻ em và phụ nữ:
+        - Một số tác dụng của yến sào với phụ nữ: user-guide/writing-your-docs.md
+        - Tìm hiểu công dụng của yến sào dành cho trẻ em: user-guide/styling-your-docs.md
         - Configuration: user-guide/configuration.md
         - Deploying Your Docs: user-guide/deploying-your-docs.md
         - Custom Themes: user-guide/custom-themes.md
