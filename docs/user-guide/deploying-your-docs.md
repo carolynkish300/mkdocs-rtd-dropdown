@@ -1,180 +1,53 @@
-# Deploying your docs
+# Một số hình ảnh tổ yến đảo thiên nhiên các loại
 
-A basic guide to deploying your docs to various hosting providers
+![Yến sào Đại Lâm Mộc](http://toyensaovietnam.com/wp-content/uploads/2020/03/Một-số-hình-ảnh-tổ-yến-đảo-thiên-nhiên-các-loại.jpg)
 
----
+## Hình dáng tổ yến đảo thiên nhiên cần biết
+*   Về khía cạnh uy tín thương hiệu thì hình ảnh yến sào đảo thiên nhiên gắn liền với cái tên Khánh Hòa đã và đang được đánh giá cao trên thị trường tiêu dùng với thị phần tiêu thụ hằng năm tương đối lớn.
+*   Yến đảo tự nhiên và yến nhà thì cũng là sản phẩm của chim yến kiếm ngoài tự nhiên và đều tốt như nhau. Chúng ta chỉ làm nơi cư ngụ cho chim yến vào ở và thu hoạch tổ yến đảo được dễ dàng hơn mà thôi.
+*   [yến sào đảo thiên nhiên](http://toyensaovietnam.com/hinh-anh-to-yen-dao-cac-loai/)
 
-## GitHub Pages
+## Tóm tắt quá trình hình thành tổ yến của chim yến
+*   Tổ yến được làm từ nước dãi của chim yến. Dưới tác dụng nhiệt độ và các điều kiện tự nhiên, nước dãi sẽ cứng lại, bám vào vách đá. Tổ yến có hình dạng như nửa cái chén, thân dày và cứng. Đây chính là nơi yến đẻ trứng và chăm con.
+*   Nên nhớ cách nuôi yến trong nhà là làm sao để phục vụ mục đích chim yến làm tổ là để đẻ trứng, ấp và nuôi con, không phải làm tổ để ở nên chim không di cư vào mùa đông. Cần đảm bảo được những yếu tố cũng như chu kỳ sinh sản của chim để có được những phương pháp và cách thức nuôi thật phù hợp.
+*   [tổ yến được hình thành như thế nào](http://toyensaovietnam.com/quy-trinh-va-cach-lam-to-yen-sao-cua-chim-yen/)
 
-If you host the source code for a project on [GitHub], you can easily use
-[GitHub Pages] to host the documentation for your project. There are two basic
-types of GitHub Pages sites: [Project Pages] sites, and [User and Organization
-Pages] sites. They are nearly identical but have some important differences,
-which require a different work flow when deploying.
+## Tổng quan các loại yến huyết, hồng yến trên thị trường chi tiết
+*   Cũng như tên gọi, yến huyết là loại tổ yến có màu đỏ, được xem là có giá trị cao nhất và tốt nhất trong số các loại yến. Tùy từng khu vực khai thác từ đảo hoặc tại nhà mà yến huyết sẽ có màu đỏ rực đến màu đỏ nhạt.
+*   Hiện nay hồng yến chỉ được tìm thấy ở các vách đá cheo leo ngoài đảo xa, hang đá dựng đứng, nguy hiểm. Việc khai thác hái tổ yến vô cùng khó khăn, nguy hiểm, tốn nhiều chi phí, số lượng cũng hiếm nên giá hồng yến khá cao.
+*   [tổ yến huyết](http://toyensaovietnam.com/to-yen-huyet-yen/)
 
-### Project Pages
+## Xét lại một số công nghệ làm giả tổ yến huyết hiện nay
+*   Giới kinh doanh còn có cách làm giả tổ yến huyết khá đơn giản là sử dụng phân chim yến hòa với nước cho vào thùng xốp, phía trên đặt một cái vỉ rồi xếp tổ yến lên, đậy kín lại
+*   Tại sao yến huyết được bày bán tràn lan trong khi khái niệm về yến huyết còn rất mập mờ và ngay những người thợ có kinh nghiệm cũng khẳng định, yến huyết vô cùng hiếm
+*   [cách làm tổ yến giả](http://toyensaovietnam.com/cong-nghe-lam-gia-to-yen-sao-huyet/)
 
-Project Pages sites are simpler as the site files get deployed to a branch
-within the project repository (`gh-pages` by default). After you `checkout` the
-primary working branch (usually `master`) of the git repository where you
-maintain the source documentation for your project, run the following command:
+## Tại sao tổ yến giả lại xuất hiện nhiều trên thị trường
+*   Yến sào là thực phẩm bổ dưỡng, quý giá và đắt đỏ nên dễ bị làm giả. Thông tin tổ yến giả có thật không? Cách phân biệt yến giả và yến thật như thế nào? Chúng ta cùng tìm hiểu trong bài viết này nhé!
+*   Một số nhà buôn gian lận bằng cách phủ một lớp bột khi bán tổ yến non ( tổ yến thu hoạch khi chưa đủ tháng). Vì vậy, họ thường tư vấn bạn cho thêm đường phèn vào ngay khi bắt đầu chưng luôn. Kết quả, các sợi yến chất lượng kém sẽ không tan ra hoặc ít tan vì đã được bao bọc bởi lớp đường phèn. Không những vậy, một số chất phụ gia khác làm sợi yến khi chưng lên khó nở ra và cũng không tan được. Lúc này, bạn có lẽ cũng không biết mình đã bị mắc lừa.
+*   [hình ảnh tổ yến giả](http://toyensaovietnam.com/hinh-anh-to-yen-sao-gia/)
 
-```sh
-mkdocs gh-deploy
-```
+## Kinh nghiệm nhận biết tổ yến thật và giả rõ ràng nhất
+*   Nếu khách hàng mua phải yến giả không chỉ gây ảnh hưởng tới sức khỏe mà còn gây lãng phí tiền bạc. Với kinh nghiệm nhiều năm khai thác và cung cấp yến sào nguyên chất, tổ yến sạch, chúng tôi sẽ hướng dẫn bạn cách phân biệt yến thật yến giả nhanh nhất và hiệu quả nhất.
+*   Tại nhiều cửa hàng, tổ yến cũng được bày bán đủ loại, từ yến nguyên chất, yến đóng hộp đến yến được chế biến thành xúp với mỗi nơi một giá.
+*   [cách nhận biết tổ yến thật giả](http://toyensaovietnam.com/to-yen/)
 
-That's it! Behind the scenes, MkDocs will build your docs and use the
-[ghp-import] tool to commit them to the `gh-pages` branch and push the
-`gh-pages` branch to GitHub.
+## Tổ yến thô còn lông thật giả phân biệt ra sao
+*   Yến sào thô giả : cũng có các sợi chồng chéo gắn liền nhau một cách rất công phu và tinh xảo, nhưng thực chất chỉ là một hỗn hợp được cấu tạo bằng Agar, chứa tinh bột, lòng trắng trứng và sụn cước cá với một kỹ thuật chế biến tinh vi đến mức trông giống như yến sào thật.
+*   Tổ Yến thô còn lông giả bằng rong biển có vị mặn mặn của sợi rong, khi chưng ra sợi rong sẽ nhìn to thô, cứng chứ không mềm như sợi Yến và đặc biệt khi ở dạng khô tổ Yến giả từ rong biển vẫn mềm chứ không giòn như tổ Yến nguyên chất.
+*   [phân biệt tổ yến thô thật giả](http://toyensaovietnam.com/cach-phan-biet-to-yen-sao-tho-chua-lam-sach-that-gia/)
 
-Use `mkdocs gh-deploy --help` to get a full list of options available for the
-`gh-deploy` command.
+## Những điều cần biết để nhận biết yến đã làm sạch tinh chế thật giả
+*   Sau bí quyết nhận biết yến sào thô giả trong bài viết trước, hãy tiếp tục tham khảo cách nhận biết tổ yến tinh chế giả để trở thành một chuyên gia về yến sào và có thể dễ dàng mua được những sản phẩm chất lượng nhé.
+*   Để biến yến sào làm sạch tinh chế giả từ yến trắng thành yến đỏ sử dụng thêm thủ đoạn là dùng thuốc nhuộm trung quốc. Chúng giúp yến có màu đỏ như yến huyết thật nhưng nhìn kỹ, chúng vẫn có một số điểm khác biệt, đòi hỏi bạn phải thực sự tinh tế.
+*   [phân biệt tổ yến tinh chế thật giả](http://toyensaovietnam.com/cach-phan-biet-to-yen-sao-tinh-che-da-lam-sach-that-va-gia/)
 
-Be aware that you will not be able to review the built site before it is pushed
-to GitHub. Therefore, you may want to verify any changes you make to the docs
-beforehand by using the `build` or `serve` commands and reviewing the built
-files locally.
+## Cảnh báo các loại tổ yến kém chất lượng hiện nay
+*   Yến sào nói riêng và rất nhiều mặt hàng đa dạng khác ngày nay được bán khá phổ biến thông qua các trang mạng. Và điều này cứ tồn tại như một hình thức kinh doanh mang tính tiện lợi cho người bán lẫn người mua.
+*   Ngày càng có nhiều vụ việc yến sào giả kém chất lượng được phanh phui. Trong đó, yến sào rởm được tẩm rất nhiều chất khác nhau từ đường cho tới những hóa chất độc hại nguy hiểm khác như thuốc tẩy, oxy già.
+*   [cảnh giác yến sào giả](http://toyensaovietnam.com/bang-liet-ke-cac-thanh-phan-co-trong-to-yen-sao/)
 
-!!! warning
-
-    You should never edit files in your pages repository by hand if you're using
-    the `gh-deploy` command because you will lose your work the next time you
-    run the command.
-
-### Organization and User Pages
-
-User and Organization Pages sites are not tied to a specific project, and the
-site files are deployed to the `master` branch in a dedicated repository named
-with the GitHub account name. Therefore, you need working copies of two
-repositories on our local system. For example, consider the following file
-structure:
-
-```no-highlight
-my-project/
-    mkdocs.yml
-    docs/
-orgname.github.io/
-```
-
-After making and verifying updates to your project you need to change
-directories to the `orgname.github.io` repository and call the
-`mkdocs gh-deploy` command from there:
-
-```sh
-cd ../orgname.github.io/
-mkdocs gh-deploy --config-file ../my-project/mkdocs.yml --remote-branch master
-```
-
-Note that you need to explicitly point to the `mkdocs.yml` configuration file as
-it is no longer in the current working directory. You also need to inform the
-deploy script to commit to the `master` branch. You may override the default
-with the [remote_branch] configuration setting, but if you forget to change
-directories before running the deploy script, it will commit to the `master`
-branch of your project, which you probably don't want.
-
-Be aware that you will not be able to review the built site before it is pushed
-to GitHub. Therefore, you may want to verify any changes you make to the docs
-beforehand by using the `build` or `serve` commands and reviewing the built
-files locally.
-
-!!! warning
-
-    You should never edit files in your pages repository by hand if you're using
-    the `gh-deploy` command because you will lose your work the next time you
-    run the command.
-
-### Custom Domains
-
-GitHub Pages includes support for using a [Custom Domain] for your site. In
-addition to the steps documented by GitHub, you need to take one additional step
-so that MkDocs will work with your custom domain. You need to add a `CNAME` file
-to the root of your [docs_dir]. The file must contain a single bare domain or
-subdomain on a single line (see MkDocs' own [CNAME file] as an example). You may
-create the file manually, or use GitHub's web interface to set up the custom
-domain (under Settings / Custom Domain). If you use the web interface, GitHub
-will create the `CNAME` file for you and save it to the root of your "pages"
-branch. So that the file does not get removed the next time you deploy, you need
-to copy the file to your `docs_dir`. With the file properly included in your
-`docs_dir`, MkDocs will include the file in your built site and push it to your
-"pages" branch each time you run the `gh-deploy` command.
-
-If you are having problems getting a custom domain to work, see GitHub's
-documentation on [Troubleshooting custom domains].
-
-[GitHub]: https://github.com/
-[GitHub Pages]: https://pages.github.com/
-[Project Pages]: https://help.github.com/articles/user-organization-and-project-pages/#project-pages-sites
-[User and Organization Pages]: https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites
-[ghp-import]: https://github.com/davisp/ghp-import
-[remote_branch]: ./configuration.md#remote_branch
-[Custom Domain]: https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site
-[docs_dir]: ./configuration.md#docs_dir
-[CNAME file]: https://github.com/mkdocs/mkdocs/blob/master/docs/CNAME
-[Troubleshooting custom domains]: https://help.github.com/articles/troubleshooting-custom-domains/
-
-## Read the Docs
-
-[Read the Docs][rtd] offers free documentation hosting. You can import your docs
-using any major version control system, including Mercurial, Git, Subversion,
-and Bazaar. Read the Docs supports MkDocs out-of-the-box. Follow the
-[instructions] on their site to arrange the files in your repository properly,
-create an account and point it at your publicly hosted repository. If properly
-configured, your documentation will update each time you push commits to your
-public repository.
-
-!!! note
-
-    To benefit from all of the [features] offered by Read the Docs, you will need
-    to use the [Read the Docs theme][theme] which ships with MkDocs. The various
-    themes which may be referenced in Read the Docs' documentation are Sphinx
-    specific themes and will not work with MkDocs.
-
-[rtd]: https://readthedocs.org/
-[instructions]: https://read-the-docs.readthedocs.io/en/latest/getting_started.html#in-markdown
-[features]: http://read-the-docs.readthedocs.io/en/latest/features.html
-[theme]: ./styling-your-docs.md#readthedocs
-
-## Other Providers
-
-Any hosting provider which can serve static files can be used to serve
-documentation generated by MkDocs. While it would be impossible to document how
-to upload the docs to every hosting provider out there, the following guidelines
-should provide some general assistance.
-
-When you build your site (using the `mkdocs build` command), all of the files
-are written to the directory assigned to the [site_dir] configuration option
-(defaults to `"site"`) in your `mkdocs.yaml` config file. Generally, you will
-simply need to copy the contents of that directory to the root directory of your
-hosting provider's server. Depending on your hosting provider's setup, you may
-need to use a graphical or command line [ftp], [ssh] or [scp] client to transfer
-the files.
-
-For example, a typical set of commands from the command line might look
-something like this:
-
-```sh
-mkdocs build
-scp -r ./site user@host:/path/to/server/root
-```
-
-Of course, you will need to replace `user` with the username you have with your
-hosting provider and `host` with the appropriate domain name. Additionally, you
-will need to adjust the `/path/to/server/root` to match the configuration of
-your hosts' file system.
-
-[ftp]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
-[ssh]: https://en.wikipedia.org/wiki/Secure_Shell
-[scp]: https://en.wikipedia.org/wiki/Secure_copy
-
-See your host's documentation for specifics. You will likely want to search
-their documentation for "ftp" or "uploading site".
-
-## 404 Pages
-
-When MkDocs builds the documentation it will include a 404.html file in the
-[build directory][site_dir]. This file will be automatically used when
-deploying to [GitHub](#github-pages) but only on a custom domain. Other web
-servers may be configured to use it but the feature won't always be available.
-See the documentation for your server of choice for more information.
-
-[site_dir]: ./configuration.md#site_dir
+**Liên hệ**
+*   **Yến sào Đại Lâm Mộc**
+*   Trụ sở: 641 Hoàng Văn Thụ P.4 Q.Tân Bình TpHCM
+*   Mobile: 0906.340.789 Mr Vũ
