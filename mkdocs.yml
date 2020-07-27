@@ -19,12 +19,12 @@ repo_url: https://github.com/carolynkish300/mkdocs-rtd-dropdown
 nav:
     - Trang chủ: index.md
     - All blogs:
-        - Một số tác dụng của yến sào với phụ nữ: user-guide/mot-so-tac-dung-cua-yen-sao-voi-phu-nu.md
-        - Tìm hiểu công dụng của yến sào dành cho trẻ em: user-guide/tim-hieu-cong-dung-cua-yen-sao-danh-cho-tre-em.md
-        - Tìm hiểu các công dụng tuyệt vời của yến sào hiện nay: user-guide/tim-hieu-cac-cong-dung-tuyet-voi-cua-yen-sao-hien-nay.md
-        - Deploying Your Docs: user-guide/deploying-your-docs.md
-        - Custom Themes: user-guide/custom-themes.md
-        - Plugins: user-guide/plugins.md
+        - Một Số Tác Dụng Của Yến Sào Với Phụ Nữ: user-guide/mot-so-tac-dung-cua-yen-sao-voi-phu-nu.md
+        - Tìm Hiểu Công Dụng Của Yến Sào Dành Cho Trẻ Em: user-guide/tim-hieu-cong-dung-cua-yen-sao-danh-cho-tre-em.md
+        - Tìm Hiểu Các Công Dụng Tuyệt Vời Của Yến Sào Hiện Nay: user-guide/tim-hieu-cac-cong-dung-tuyet-voi-cua-yen-sao-hien-nay.md
+        - Một Số Hình Ảnh Tổ Yến Đảo Thiên Nhiên Các Loại: user-guide/mot-so-hinh-anh-to-yen-dao-thien-nhien-cac-loai.md
+        - Bảng Giá Tổ Yến Trên Thị Trường Hiện Nay: user-guide/bang-gia-to-yen-tren-thi-truong-hien-nay.md
+        - Tổng Quan Cách Làm Sạch Và Chế Biến Tổ Yến Sào Đúng Cách: user-guide/tong-quan-cach-lam-sach-va-che-bien-to-yen-sao-dung-cach.md
     - Liên hệ:
         - Release Notes: about/release-notes.md
         - Contributing: about/contributing.md
